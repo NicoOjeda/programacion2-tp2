@@ -1,0 +1,38 @@
+3. Una vez codificadas en Python las Clases de los puntos anteriores, instancie los objetos tal como sucede en las siguientes instrucciones:
+
+sullivan = Monstruo(‘James P. Sullivan’, ‘leon’)
+mike = Monstruo(‘Mike Wazowski’, ‘ciclope’)
+boo = Humano(‘Boo’)
+
+a. Describa el estado interno de los objetos asociados a las variables sullivan, mike y boo, detallando los valores de sus atributos de instancia.
+
+sullivan = Monstruo("James P. Sullivan", "leon")
+nombre = "James P. Sullivan"
+especie = "leon"
+energia = 100
+
+mike = Monstruo("Mike Wazowski", "ciclope")
+nombre = "ciclope"
+especie = "leon"
+energia = 10
+
+boo = Humano("Boo")
+nombre = "boo
+estadoAsustado = false
+especie = "humano"
+
+b. ¿Cuál es el valor del atributo de clase especie asociado al objeto referenciado por el identificador boo?
+
+El valor del atributo de clase especie asociado al objeto referenciado por el identificador boo es humano. 
+
+c. Si se instanciase un segundo objeto como el siguiente:
+sullivan2 = Monstruo("James P. Sullivan", "leon")
+
+i. ¿Los identificadores sullivan y sullivan2 hacen referencia al mismo objeto? ¿o son objetos idénticos completamente distintos?
+Son objetos idénticos completamente distintos
+
+ii. ¿Son objetos equivalentes? Explique que significa que dos objetos lo sean.
+son objetos equivalentes porque tienen los mismos valores pero tienen id diferente porque ocupan distinto espacio de memoria. son objetos distintos
+
+iii. ¿Los objetos ligados a sullivan y sullivan2 comparten la misma posición de memoria?
+Ambos objetos comparten distinta posicion de memoria
